@@ -1,6 +1,8 @@
 body {
-    background-image: url(../assets/Website-Images/clouds.jpg);
+    background-image: url(../assets/Website-Images/clouds_crop2.jpg);
     background-size: cover;
+    background-repeat:no-repeat;
+    
 }
 
 .inner img {
@@ -18,11 +20,17 @@ body {
      width: 100%;
 }
 
+/* used to adjust logo below vertical centering from top*/
+.cover-container{
+    padding-top: 7em;
+}
+
 .lead {
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
     color: rgba(255,255,255,.75);
 }
+
 
 .lead img {
     width: 7%;
@@ -34,7 +42,7 @@ body {
 @media (min-width: 768px) {
   /* resize logo */
   .inner img {
-    width: 25%;
+    width: 20%;
   }
 
   .lead img {
